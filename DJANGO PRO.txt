@@ -1,0 +1,32 @@
+python manage.py startapp home=to create new app called home
+
+python manage.py runserver=to create server
+
+python manage.py runserver 0.0.0.0.5000=to run the server on custom port number(herre 5000)
+
+All logical part written in views.py
+views of two types-class-based and function-based
+
+to pass the backend to html page in frontend then we use context
+
+truncatechar:10= used to show limited data(here 10 char only)
+
+DRY=Do not repeat
+dont repeat the code
+
+models = used to create schema
+
+If you delete a migration file in a Django project, it can lead to issues with your database schema synchronization. Migration files in Django are essential for tracking changes to your models and applying those changes to the database.
+
+django shell=to interact with python
+python manage.py shell=to access django shell
+
+when some info is entered in frontend of project by user, it needs to be stored in database. so we use post method
+
+to save passwords call user.set_password(password),,after using this only password is encrypted
+if we save password without encryption then for authentication we can only use
+if password==user.password
+
+login(request,user) is used for continuing the session
+
+
